@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="p.css" rel="stylesheet" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+
+        ul, li {
+            list-style-type: none;
+        }
+
+        ul {
+            height: 50px;
+            margin-left: 20px;
+            margin-top: 18px;
+        }
+
+        li {
+            float: left;
+            /*margin-right: 10px;*/
+            width: 96px;
+            height: 31px;
+            background-size: 100% 100%;
+            cursor:pointer;
+        }
+
+        li.active {
+            cursor:default;
+        }
+
+        #b1 {
+            background-image: url(yh.png);
+        }
+
+        #b1.active {
+            background-image: url(yh-active.png);
+        }
+
+        #b2 {
+            background-image: url(zl.png);
+        }
+
+        #b2.active {
+            background-image: url(zl-active.png);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="b1" class="active"></li>
+        <li id="b2"></li>
+    </ul>
+    <table class="table1">
+        <tr> 
+            <th>物料名称</th>         
+            <th style="width:110px"><span>计划进度</span></th>
+            <th>效率</th>
+        </tr>
+        <tr class="t1"> 
+            <td>精矿</td> 
+            <td><div>90%</div></td>
+            <td><cite></cite></td>
+        </tr>
+        <tr class="t2"> 
+            <td>冰铜</td> 
+            <td><div>60%</div></td>
+            <td><cite></cite></td>
+        </tr>
+        <tr class="t3"> 
+            <td>粗铜</td> 
+            <td><div>20%</div></td>
+            <td><cite></cite></td>
+        </tr>
+        <tr class="t4"> 
+            <td>阳极铜</td> 
+            <td><div>80%</div></td>
+            <td><cite></cite></td>
+        </tr>
+    </table>
+    <script src="../../../js/jquery-1.12.4.js"></script>
+    <script src="p.js"></script>
+</body>
+</html>

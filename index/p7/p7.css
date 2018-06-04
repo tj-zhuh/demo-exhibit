@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; }
+
+.panel7-pic-image { float: left; /*margin-left: 250px;*/ margin-top: 5px; width: 165px; height:100px; }
+.panel7-desc { float: left; margin-left: 15px; width: 100px; height: 100px; line-height: 100px; color: #48a1de; }
+#panel7-pic1 { margin-left:70px; }
+#panel7-pic2 {}
+#panel7-pic3 {}
+#panel7-pic4 {}
+#panel7-pic5 {}
+#panel7-pic6 {}

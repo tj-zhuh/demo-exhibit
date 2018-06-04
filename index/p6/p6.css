@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; }
+
+.panel6 { height: 100%; width: 100%; }
+.panel6l { float:left; width: 1080px; }
+/*.panel6l .panel6l-title { float: left; margin-top: 10px; margin-left:215px; font-size: 20px; font-family: '宋体'; font-weight: bold; color: #32e7e9; }*/
+.panel6l .panel6l-content { float: left; margin-top: 22px; margin-left: 10px; font-size: 30px; line-height: 45px; min-width: 200px; border: 0.5px dashed #32e7e9;  border-radius: 2px; background-color: rgba(76,160,223,0.34); }
+.panel6l .panel6l-content .name { margin-left: 15px; font-family: '宋体'; font-size: 30px; font-weight: bold; color: #32e7e9; min-width: 40px; }
+.panel6l .panel6l-content .value {margin: 0 15px 0 10px; font-size: 20px; color: #32e7e9; min-width: 40px; }
+.panel6l .panel6l-content#panel6l-content1 { margin-left: 30px; }
+.panel6l .panel6l-content#panel6l-content2 {  }
+.panel6l .panel6l-content#panel6l-content3 {  }
+.panel6l .panel6l-content#panel6l-content4 {  }
+.panel6r { float:left; width: 700px; }
+.panel6r .panel6r-content { float: left; margin: 30px 0 0 25px; padding: 10px; height: 60px; line-height: 60px; font-size: 25px; font-family: '宋体'; color: #32e7e9;  border: 0.5px solid #48a1de;  border-radius: 2px; background-color: rgba(76,160,223,0.34); }
+/*.panel6r #panel6r-content1 { margin-left: 45px; }*/
+.panel6r #panel6r-content2 {}
+.panel6r #panel6r-content3 {}
+.panel6r #panel6r-content4 { border-width: 0; background-color: transparent; font-size: 20px; }
+.panel6r #panel6r-content5 {}
