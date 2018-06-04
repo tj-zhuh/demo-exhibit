@@ -1,0 +1,9 @@
+﻿.panel6 { }
+
+.panel6 table,
+.panel7 table { position: absolute; bottom: 0.35rem; border-collapse: collapse; width: 100%; }
+
+.panel6 tr { }
+
+.panel6 td,
+.panel7 td { font-size: 0.15rem; color: #fff; font-family: '黑体'; border: 1px solid #48a0e0; text-align: center; line-height: 0.325rem; background-color: #003566; height: 0.6rem; }

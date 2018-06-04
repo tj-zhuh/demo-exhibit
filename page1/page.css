@@ -1,0 +1,48 @@
+﻿.title { background-image: url(../images/title1.png); width: 4.31rem; left: 7.44rem; }
+
+.back:hover { background-image: url(../images/back-hover.png); }
+
+.panel1,
+.panel2 { left: 0.08rem; }
+
+.panel3,
+.panel5 { left: 4.85rem; }
+
+.panel4,
+.panel8 { left: 9.64rem; }
+
+.panel9,
+.panel10 { left: 14.41rem; }
+
+.panel { width: 4.67rem; }
+
+.panel { top: 1.2rem; }
+
+.panel2,
+.panel10 { top: 6rem; }
+
+.panel5,
+.panel8 { top: 5.6rem; }
+
+.panel1,
+.panel2,
+.panel9,
+.panel10 { height: 4.65rem; }
+
+/*.panel3,
+.panel4,
+.panel6,
+.panel7 {
+    height: 4.25rem;
+}*/
+.panel3,
+.panel4 { height: 4.25rem; }
+
+.panel5,
+.panel8 { height: 5.05rem; }
+
+#chart8 { width: 100%; height: 85%; position: absolute; left: 0; bottom: 8%; }
+
+#chart9 { width: 100%; height: 90%; position: absolute; left: 0; bottom: 0; }
+
+#chart10 { width: 100%; height: 88%; position: absolute; left: 0; bottom: 7.5%; }

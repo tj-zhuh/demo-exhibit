@@ -1,0 +1,20 @@
+﻿.panel1 {
+}
+
+
+.panel1 ul {
+    margin-top:0.5rem;
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+}
+
+.panel1 li {
+    font-size:0.15rem;
+    font-family:'黑体';
+    color: #ff0000;
+    border-bottom:1px solid #00429e;
+    height:0.34rem;
+    line-height:0.34rem;
+    text-indent:0.1rem;
+}
+

@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="page.css" rel="stylesheet" />
+    <link href="panel1.css" rel="stylesheet" />
+    <link href="panel3.css" rel="stylesheet" />
+    <link href="../css/style-zbc.css" rel="stylesheet" />
+    <link href="panel4.css" rel="stylesheet" />
+    <link href="../css/nav.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="container">
+        <!--<a href="../home/home.html" class="back"></a>-->
+        <div class="title"></div>
+    </div>
+    <div class="panel panel1 pline1">
+        <div class="bar"></div>
+        <div class="paneltitle">生产进度展示</div>
+        <ul></ul>
+    </div>
+    <div class="panel panel2 pline1">
+        <div class="bar"></div>
+        <div class="paneltitle">库存展示</div>
+        <div id="zhuzi1"></div>
+        <div id="multi-divs"></div>
+    </div>
+    <div class="panel panel3 pline1">
+        <div class="bar"></div>
+        <div class="paneltitle">设备运行状况展示</div>
+        <ul>
+            <li><cite class="state1"></cite>超负荷工作</li>
+            <li><cite class="state2"></cite>正常运转</li>
+            <li><cite class="state3"></cite>备用可用</li>
+            <li><cite class="state4"></cite>设备故障</li>
+        </ul>
+        <table>
+            <tr>
+                <th>车间</th>
+                <th>设备</th>
+                <th>运行时间</th>
+            </tr>
+            <tr>
+                <td rowspan="2">熔炼</td>
+                <td>失重称螺旋</td>
+                <td class="ictd"><cite class="state2"></cite>24小时</td>
+            </tr>
+            <tr>
+                <td>转炉环集风机</td>
+                <td class="ictd"><cite class="state4"></cite>0</td>
+            </tr>
+            <tr>
+                <td rowspan="2">电解</td>
+                <td>剥片机组</td>
+                <td class="ictd"><cite class="state2"></cite>30小时</td>
+            </tr>
+            <tr>
+                <td>阳极机组</td>
+                <td class="ictd"><cite class="state3"></cite>0</td>
+            </tr>
+            <tr>
+                <td rowspan="2">稀贵</td>
+                <td>高压釜</td>
+                <td class="ictd"><cite class="state2"></cite>1天</td>
+            </tr>
+            <tr>
+                <td>文丘里风机</td>
+                <td class="ictd"><cite class="state1"></cite>超负荷工作</td>
+            </tr>
+            <tr>
+                <td rowspan="2">选矿</td>
+                <td>半自磨机</td>
+                <td class="ictd"><cite class="state2"></cite>24小时</td>
+            </tr>
+            <tr>
+                <td>球磨机</td>
+                <td class="ictd"><cite class="state4"></cite>0</td>
+            </tr>
+        </table>
+    </div>
+    <div class="panel panel4 pline1">
+        <div class="bar"></div>
+        <div class="paneltitle">重大事件</div>
+        <table>
+            <tr>
+                <th>序号</th>
+                <th>内容</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>XXX车间张三误操作，引发安全事</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>XXX设备出现问题，停工2小时</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>XXX反灌出现溢出现象</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>XXX车间张三误操作，引发安全事</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>XXX设备出现问题，停工2小时</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>XXX反灌出现溢出现象</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>XXX车间张三误操作，引发安全事</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>XXX设备出现问题，停工2小时</td>
+            </tr>
+        </table>
+    </div>
+    <div class="panel panel5 pline2">
+        <div class="bar"></div>
+        <div class="paneltitle">原料成本趋势展示</div>
+        <div id="zhexian1"></div>
+    </div>
+    <div class="panel panel6 pline2">
+        <div class="bar"></div>
+        <div class="paneltitle">产品收入趋势图</div>
+        <div id="zhexian2"></div>
+    </div>
+    <div class="panel panel7 pline2">
+        <div class="bar"></div>
+        <div class="paneltitle">能耗指示趋势图</div>
+        <div id="zhexian3"></div>
+    </div>
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/echarts-3.3.2.js"></script>
+    <script src="echarts-modules/zhexian.js"></script>
+    <script src="echarts-modules/zhuzi.js"></script>
+
+    <script src="page.js"></script>
+    <script src="draw.js"></script>
+    <script src="../js/nav.js"></script>
+</body>
+</html>

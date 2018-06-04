@@ -1,0 +1,64 @@
+﻿
+.title {
+    background-image: url(../images/title2.png);
+    height:0.4rem;
+    width: 3.45rem;
+    left: 7.85rem;
+    top:0.1rem;
+}
+
+.back:hover {
+    background-image: url(../images/back-hover.png);
+}
+
+.panel1,
+.panel5 {
+    left: 0.08rem;
+}
+
+.panel2,
+.panel6 {
+    left: 3.24rem;
+}
+
+.panel3 {
+    left: 9.63rem;
+}
+
+.panel4 {
+    left:16.03rem;
+}
+
+.panel7 {
+    left: 12.83rem;
+}
+
+.panel1,
+.panel4,
+.panel5 {
+    width: 3.05rem;
+}
+
+.panel2,
+.panel3 {
+    width:6.29rem;
+}
+
+.panel6 {
+    width:9.48rem;
+}
+
+.panel7 {
+    width: 6.25rem;
+}
+
+.panel {
+    top: 1.2rem;
+    height: 4.65rem;
+}
+
+.panel5,
+.panel6,
+.panel7 {
+    top: 6rem;
+}

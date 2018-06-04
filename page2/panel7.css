@@ -1,0 +1,69 @@
+﻿.panel7 {
+}
+
+.panel7 td {
+    position:relative;
+}
+
+.panel7 td div {
+    text-align: right;
+    font-size: 0.15rem;
+    font-family: '黑体';
+    color: #fff;
+    background-color: #8b01db;
+    margin-top:0.045rem;
+    height:0.2rem;
+    margin-left:0.1rem;
+    line-height:0.2rem;
+    padding-right:0.1rem;
+}
+
+
+
+/*.panel7 .t1 div {
+    width: 4.5rem;
+}
+
+.panel7 .t2 div {
+    width: 2.5rem;
+}
+
+.panel7 .t3 div {
+    width: 3.35rem;
+}
+
+.panel7 .t4 div {
+    width: 2.8rem;
+}
+
+.panel7 .t5 div {
+    width: 4.65rem;
+}*/ 
+
+
+.panel7 td cite {
+    display:block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50% 50%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-0.1rem;
+    margin-top:-0.1rem;
+}
+
+
+.panel7 .t1 cite,
+.panel7 .t2 cite {
+    background-color: #f40915;
+}
+
+.panel7 .t3 cite,
+.panel7 .t4 cite {
+    background-color: #28dd00;
+}
+
+.panel7 .t5 cite {
+    background-color: #f5b709;
+}

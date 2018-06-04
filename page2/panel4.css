@@ -1,0 +1,7 @@
+﻿.panel4 { }
+
+.panel4 table { position: absolute; bottom: 0.6rem; border-collapse: collapse; width: 100%; }
+
+.panel4 tr { height: 0.8rem; }
+
+.panel4 td { width: 50%; font-size: 0.15rem; color: #fff; font-family: '黑体'; border: 1px solid #48a0e0; text-align: center; line-height: 0.48rem; background-color: #003566; }

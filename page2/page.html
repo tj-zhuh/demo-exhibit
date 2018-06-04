@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="page.css" rel="stylesheet" />
+    <link href="panel1.css" rel="stylesheet" />
+    <link href="panel4.css" rel="stylesheet" />
+    <link href="panel6.css" rel="stylesheet" />
+    <link href="panel7.css" rel="stylesheet" />
+    <link href="zDraw.css" rel="stylesheet" />
+    <link href="../css/nav.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="title"></div>
+        <div class="panel panel1">
+            <div class="bar"></div>
+            <div class="paneltitle">调度信息</div>
+            <ul>
+                <li>1. 9:00-10:00  待前壳影响30分钟</li>
+                <li>2. 12:00-13:00  待主板影响20分钟</li>
+                <li>3. 9:00-10:00  待前壳影响30分钟</li>
+                <li>4. 19:00-20:00  待前壳影响15分钟</li>
+                <li>5. 22:00-23:00  待主板影响21分钟</li>
+                <li>6. 0:00-1:00  待前壳影响12分钟</li>
+                <li>7. 2:00-3:00  待主板影响21分钟</li>
+                <li>8. 5:00-6:00  待前壳影响18分钟</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="panel panel2">
+            <div class="bar"></div>
+            <div class="paneltitle">合格率趋势</div>
+            <div id="line1" style="width:100%;height:100%;"></div>
+        </div>
+        <div class="panel panel3">
+            <div class="bar"></div>
+            <div class="paneltitle">产量趋势</div>
+            <div id="bar1" style="width:100%;height:100%;"></div>
+        </div>
+        <div class="panel panel4">
+            <div class="bar"></div>
+            <div class="paneltitle">综合信息</div>
+            <table>
+                <tr>
+                    <td>月计划量</td>
+                    <td>1370</td>
+                </tr>
+                <tr>
+                    <td>月完成量</td>
+                    <td>1120</td>
+                </tr>
+                <tr>
+                    <td>班组</td>
+                    <td>甲班</td>
+                </tr>
+                <tr>
+                    <td>在岗人数</td>
+                    <td>63</td>
+                </tr>
+            </table>
+        </div>
+        <div class="panel panel5">
+            <div class="bar"></div>
+            <div class="paneltitle">技术指标</div>
+            <div id="bar2" style="width:100%;height:100%;"></div>
+        </div>
+        <div class="panel panel6">
+            <div class="bar"></div>
+            <div class="paneltitle">计划进度</div>
+            <table>
+                <tr>
+                    <td>序号</td>
+                    <td>指令编号</td>
+                    <td>物料名称</td>
+                    <td>生产日期</td>
+                    <td>计划量</td>
+                    <td>完成量</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2365874</td>
+                    <td>精矿投入量</td>
+                    <td>2017-4-26</td>
+                    <td>1000</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2365874</td>
+                    <td>冰铜</td>
+                    <td>2017-4-26</td>
+                    <td>1850</td>
+                    <td>1634</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2365874</td>
+                    <td>粗铜</td>
+                    <td>2017-4-26</td>
+                    <td>1000</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2365874</td>
+                    <td>阳极铜</td>
+                    <td>2017-4-26</td>
+                    <td>2000</td>
+                    <td>1800</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>2589746</td>
+                    <td>精矿投入量</td>
+                    <td>2017-4-25</td>
+                    <td>3000</td>
+                    <td>2785</td>
+                </tr>
+            </table>
+        </div>
+        <div class="panel panel7">
+            <table>
+                <tr>
+                    <td width="80%">计划进度</td>
+                    <td>效率</td>
+                </tr>
+                <tr class="t1">
+                    <td><div>90%</div></td>
+                    <td><cite></cite></td>
+                </tr>
+                <tr class="t2">
+                    <td><div>50%</div></td>
+                    <td><cite></cite></td>
+                </tr>
+                <tr class="t3">
+                    <td><div>67%</div></td>
+                    <td><cite></cite></td>
+                </tr>
+                <tr class="t4">
+                    <td><div>56%</div></td>
+                    <td><cite></cite></td>
+                </tr>
+                <tr class="t5">
+                    <td><div>93%</div></td>
+                    <td><cite></cite></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="../js/rem.js"></script>
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/echarts-3.3.2.js"></script>
+    <script src="echarts-modules/zhuzi.js"></script>
+    <script src="echarts-modules/zhexian.js"></script>
+    <script src="draw.js"></script>
+    <script src="page.js"></script>
+    <script src="../js/nav.js"></script>
+</body>
+</html>

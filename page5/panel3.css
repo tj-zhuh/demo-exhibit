@@ -1,0 +1,29 @@
+﻿.panel3 { }
+
+.panel3 cite { width: 0.15rem; height: 0.15rem; transform: rotate(45deg); }
+
+.panel3 cite.state1 { background-color: #fe0100; }
+
+.panel3 cite.state2 { background-color: #009a00; }
+
+.panel3 cite.state3 { background-color: #009aff; }
+
+.panel3 cite.state4 { background-color: #ffff00; }
+
+.panel3 ul { position: absolute; top: 0.15rem; left: 2rem; }
+
+.panel3 li { font-size: 0.12rem; font-family: '黑体'; color: #fff; float: left; line-height: 0.15rem; margin-right: 0.15rem; }
+
+.panel3 li cite { float: left; margin-right: 0.1rem; }
+
+.panel3 table { position: absolute; bottom: 0; border-collapse: collapse; width: 100%; }
+
+.panel3 tr { }
+
+.panel3 td { font-size: 0.15rem; color: #fff; font-family: '黑体'; border: 1px solid #48a0e0; text-align: center; line-height: 0.275rem; background-color: #003566; height: 0.64rem; }
+
+.panel3 th { font-size: 0.15rem; color: #fff; font-family: '黑体'; font-weight: bold; text-align: center; line-height: 0.275rem; border: 1px solid #48a0e0; background-color: #003566; height: 0.64rem; }
+
+.panel3 .ictd { position: relative; }
+
+.panel3 .ictd cite { position: absolute; left: 0.4rem; top: 0.06rem; }

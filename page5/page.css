@@ -1,0 +1,61 @@
+﻿
+.title {
+    background-image: url(../images/title5.png);
+    width: 3.367rem;
+    left: 7.955rem;
+}
+
+.back:active {
+    background-image: url(../images/back-hover.png);
+}
+
+.pline1 {
+    height: 6.44rem;
+    top: 1.18rem;
+}
+
+.pline2 {
+    height: 2.83rem;
+    top: 7.82rem;
+}
+
+.panel1,
+.panel5 {
+    left: 0.08rem;
+}
+
+.panel2 {
+    left: 3.3rem;
+}
+
+.panel3,
+.panel6 {
+    left: 9.64rem;
+}
+
+.panel4 {
+    left: 15.97rem;
+}
+
+.panel7 {
+    left: 14.42rem;
+}
+
+.panel1,
+.panel4 {
+    width: 3.11rem;
+}
+
+.panel2,
+.panel3 {
+    width: 6.22rem;
+}
+
+.panel5 {
+    width: 9.46rem;
+}
+
+.panel6,
+.panel7 {
+    width: 4.66rem;
+}
