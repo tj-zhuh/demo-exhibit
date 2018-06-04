@@ -1,0 +1,14 @@
+﻿/*for page5*/
+#zhuzi1 { width: 100%; height: 78%; }
+
+#multi-divs { width: 100%; height: 22%; }
+#multi-divs li { float: left; }
+#multi-divs li .storage-container { width: 0.48rem; height: 0.8rem; margin-left: 0.48rem; margin-top: 0.25rem; background: inherit; }
+#multi-divs li .storage-value { width: 100%; height: 20%; font-size: 0.1rem; text-align: center; line-height: 0.15rem; color: #bababa; }
+#multi-divs li .storage-can { width: 94%; height: 55%; border: solid 1px #48a0e0; margin-top: 2.5%; margin-bottom: 2.5%; background: #000; }
+#multi-divs li .storage-can div { width: 100%; /*height:55%;*/ /*background:red;margin-top:45%;*/ }
+#multi-divs li .storage-category { width: 100%; height: 20%; font-size: 0.1rem; text-align: center; line-height: 0.15rem; color: #bababa; }
+
+#zhexian1 { position: absolute; top: 0; width: 100%; height: 100%; }
+#zhexian2 { position: absolute; top: 0; width: 100%; height: 100%; }
+#zhexian3 { position: absolute; top: 0; width: 100%; height: 100%; }

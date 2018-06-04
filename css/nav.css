@@ -1,0 +1,196 @@
+﻿.nav {
+    position: absolute;
+    background-size: 100% 100%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.navm {
+    background-image: url(../images/navm.png);
+    width: 0.87rem;
+    height: 0.87rem;
+}
+
+.navm:hover {
+    background-image: url(../images/navm-hover.png);
+}
+
+.navm.active {
+    background-image: url(../images/navm-active.png);
+}
+
+.navt {
+    font-size: 0.36rem;
+    font-family: '黑体';
+    color: #00b4ff;
+    display: none;
+    height: 0.65rem;
+    line-height:0.65rem;
+}
+
+.navt.active {
+    display: block;
+}
+
+.navt.current {
+    opacity: 0.55;
+    cursor: default;
+}
+
+.navlink {
+    display: none;
+    width: 0.65rem;
+    height: 0.65rem;
+}
+
+.navlink.current {
+    cursor: default;
+}
+
+.navlink.active {
+    display: block;
+}
+
+
+.nava {
+    left: 0.15rem;
+}
+
+.nava.navlink {
+    left: 0.26rem;
+}
+
+.nava.navt {
+    left:1.01rem;
+}
+
+.navb {
+    right: 0.15rem;
+}
+
+.navb.navlink {
+    right: 0.26rem;
+}
+
+.navb.navt {
+    right: 1.01rem;
+    text-align:right;
+}
+
+.navm {
+    bottom: 0.15rem;
+    opacity:1;
+}
+
+.navm.active {
+    opacity:1;
+}
+
+.nav4 {
+    bottom: 1.17rem;
+    background-image: url(../images/navh.png);
+}
+
+.nav3 {
+    bottom: 1.97rem;
+    background-image: url(../images/nav4.png);
+}
+
+.nav2 {
+     bottom: 2.77rem;
+    background-image: url(../images/nav3.png);
+}
+
+.nav1 {
+     bottom: 3.57rem;
+    background-image: url(../images/nav2.png);
+}
+
+.navx {
+    bottom: 5.17rem;
+    background-image: url(../images/navh.png);
+}
+
+.navh {
+    bottom: 4.37rem;
+    background-image: url(../images/navz.png);
+}
+
+.navh.current {
+    background-image: url(../images/navz-current.png);
+}
+
+.nav5.current {
+    background-image: url(../images/nav5-current.png);
+}
+
+.nav4.current {
+    background-image: url(../images/nav4-current.png);
+}
+
+.nav3.current {
+    background-image: url(../images/nav3-current.png);
+}
+
+.nav2.current {
+    background-image: url(../images/nav2-current.png);
+}
+
+.nav1.current {
+    background-image: url(../images/nav1-current.png);
+}
+
+.navx.current {
+   background-image: url(../images/navh-current.png);
+}
+
+.navt {
+    background: none;
+}
+
+.navt.current {
+    background: none;
+}
+
+.mask {
+    position:absolute;
+    background-color:#002C42;
+    width:3rem;
+    height:5.2rem;
+    bottom:2px;
+    display:none;
+    z-index:99;
+    border:2px solid #00b4ff;
+    cursor:default;
+}
+
+.mask.active {
+    display:block;
+}
+
+.maska {
+    left:2px;
+}
+
+.maskb {
+    right:2px;
+}
+
+.maskall {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99;
+    display:none;
+}
+
+.maskall.active {
+    display:block;
+    cursor:default;
+}
+
+.nava {
+    display:none;
+}

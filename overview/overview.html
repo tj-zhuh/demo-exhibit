@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="overview.css" rel="stylesheet" type="text/css" />
+    <link href="../css/nav-px.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <img id="headerimg" src="../images/title3.png" />
+		<!--<a href="../home/home.html" class="back"></a>-->
+        <div class="panel left-panel-top" id="consume">
+			<div class="header-line-left"></div>
+			<img class="header-line-right" src="../images/1_11.png" />
+            <div class="header">
+                <div class="left">总消耗</div>
+                <!-- <a href="javascript:void(0)" title="查看更多"><img src="/images/end_enlarge.png" /></a> -->
+            </div>
+			<div class="consume_li" id="consume_1" style="background-color:#042348;">
+				<!-- <img src="/images/consume_bg.png" /> -->
+				<div class="title"><span style="font-size:25px">日</span><br>累计：</div>
+				<div class="value" id="consume_Day">329939.84</div>
+				<div class="unit">tce</div>
+			</div>
+			<div  class="consume_li" id="consume_2" style="background-color:#432e0c;">
+				<!-- <img src="/images/consume_bg.png" /> -->
+				<div class="title"><span style="font-size:25px">月</span><br>累计：</div>
+				<div class="value" id="consume_Month">8039939.84</div>
+				<div class="unit">tce</div>
+			</div>
+			<div class="consume_li" id="consume_3" style="background-color:#480a39;">
+				<!-- <img src="/images/consume_bg.png" /> -->
+				<div class="title"><span style="font-size:25px">年</span><br>累计：</div>
+				<div class="value" id="consume_Year">67329939.84</div>
+				<div class="unit">tce</div>
+			</div>
+        </div>
+        <div class="panel left-panel-middle" id="index">
+			<div class="header-line-left"></div>
+			<img class="header-line-right" src="../images/1_11.png" />
+            <div class="header">
+                <div class="left">能源指标</div>
+                <div class="right1 right">
+                    <!-- <a href="javascript:void(0)" title="查看更多"><img src="/images/end_enlarge.png" /></a> -->
+                    <div class="cycle-button" condition="Year">年</div>
+                    <div class="cycle-button active" condition="Month">月</div>
+                    <div class="cycle-button" condition="Day">日</div>
+                </div>
+            </div>
+            <div id="index-chart"></div>
+        </div>
+        <div class="panel left-panel-bottom" id="rank">
+			<div class="header-line-left"></div>
+			<img class="header-line-right" src="../images/1_11.png" />
+            <div class="header">
+                <div class="left">用能排行</div>
+                <div class="right2 right">
+                    <!-- <a href="javascript:void(0)" title="查看更多"><img src="/images/end_enlarge.png" /></a> -->
+                    <div class="cycle-button" condition="Year">年</div>
+                    <div class="cycle-button active" condition="Month">月</div>
+                    <div class="cycle-button" condition="Day">日</div>
+                    <div class="type-button" condition="Energy">介质</div>
+                    <div class="type-button active" condition="Dept">部门</div>
+                </div>
+            </div>
+            <!-- <ul class="rank_list"> -->
+                <div class="rank rank1">
+                    <!-- <img id="rank_circle" src="/images/rank_circle.png" />
+                    <span class="rank">1</span> -->
+                    <img class="rank_bar" id="rank_bar1" src="../images/1_26.png" />
+                    <span class="rank_name">熔炼车间</span>
+                    <span class="rank_value" id="rank_value1"></span>
+                </div>
+				<div class="rank rank2">
+                    <!-- <img id="rank_circle" src="/images/rank_circle.png" />
+                    <span class="rank">1</span> -->
+                    <img class="rank_bar" id="rank_bar2" src="../images/1_34.png" />
+                    <span class="rank_name">动力车间</span>
+                    <span class="rank_value" id="rank_value2"></span>
+                </div>
+				<div class="rank rank3">
+                    <!-- <img id="rank_circle" src="/images/rank_circle.png" />
+                    <span class="rank">1</span> -->
+                    <img class="rank_bar" id="rank_bar3" src="../images/1_43.png" />
+                    <span class="rank_name">硫酸车间</span>
+                    <span class="rank_value" id="rank_value3"></span>
+                </div>
+				<!--<div class="rank rank4">
+                    <img class="rank_bar" id="rank_bar4" src="../images/1_28.png" />
+                    <span class="rank_name">选矿车间</span>
+                    <span class="rank_value" id="rank_value4"></span>
+                </div>
+				<div class="rank rank5">
+                    <img class="rank_bar" id="rank_bar5" src="../images/1_36.png" />
+                    <span class="rank_name">备料车间</span>
+                    <span class="rank_value" id="rank_value5"></span>
+                </div>-->
+            <!-- </ul> -->
+        </div>
+        <div class="panel middle-panel-top" id="">
+            <div class="alarm-list-wrapper">
+                <ul class="list-wrapper"></ul>
+            </div>
+            <!-- <div class="slider-more">更多>></div> -->
+			<div class="slider-pre"></div>
+			<div class="slider-next"></div>
+            <div class="alarm-bottom">
+                <ul class="bottom-slider"></ul>
+            </div>
+            <!--<div class="message-panel div1">
+                <div class="icon" style="background-color:#f3c37c;"><img src="/images/error_icon.png" />能源异常</div>
+                <div class="text" id="error"></div>
+                <div class="icon" style="background-color:#d4b4d9;"><img src="/images/analysis_icon.png" />原因分析</div>
+                <div class="text" id="analysis"></div>
+                <div class="icon" style="background-color:#9bc8d6;"><img src="/images/advice_icon.png" />处理建议</div>
+                <div class="text" id="advice"></div>
+            </div>
+            <div class="message-panel div2">
+                <div class="icon" style="background-color:#f3c37c;"><img src="/images/error_icon.png" />能源异常</div>
+                <div class="text" id="error"></div>
+                <div class="icon" style="background-color:#d4b4d9;"><img src="/images/analysis_icon.png" />原因分析</div>
+                <div class="text" id="analysis"></div>
+                <div class="icon" style="background-color:#9bc8d6;"><img src="/images/advice_icon.png" />处理建议</div>
+                <div class="text" id="advice"></div>
+            </div>
+            <div class="message-panel div3">
+                <div class="icon" style="background-color:#f3c37c;"><img src="/images/error_icon.png" />能源异常</div>
+                <div class="text" id="error"></div>
+                <div class="icon" style="background-color:#d4b4d9;"><img src="/images/analysis_icon.png" />原因分析</div>
+                <div class="text" id="analysis"></div>
+                <div class="icon" style="background-color:#9bc8d6;"><img src="/images/advice_icon.png" />处理建议</div>
+                <div class="text" id="advice"></div>
+            </div>-->
+        </div>
+        <div class="middle-panel-bottom" id="flow">
+            <div class="header">
+                <ul class="left-title">
+                    <!-- <li class="energy-button click">天然气</li>
+                    <li class="energy-button">电力</li>
+					<li class="energy-button">净化水</li>
+					<li class="energy-button">蒸汽</li> -->
+                </ul>
+            </div>
+            <div class="left-content">
+				<ul class="factoy-list-in"></ul>
+            </div>
+			<div class="middle-content">
+				<div class="arrow1"></div>
+				<div class="box total-in">
+					<div class="box-head"><img id="box-img" src="../images/1_18.png" /><span>总输入</span></div>
+					<ul class="data-list">
+						<li>
+							<span class="item-text">实时：</span>
+							<span class="item-value flow">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">日累计：</span>
+							<span class="item-value day">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">月累计：</span>
+							<span class="item-value month">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">年累计：</span>
+							<span class="item-value year">--</span>
+						</li>
+					</ul>
+				</div>
+				<div class="box total-sub">
+					<div class="box-head"><img id="box-img" src="../images/1_18.png" /><span>差量</span></div>
+					<ul class="data-list">
+						<li>
+							<span class="item-text">实时：</span>
+							<span class="item-value flow">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">日累计：</span>
+							<span class="item-value day">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">月累计：</span>
+							<span class="item-value month">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">年累计：</span>
+							<span class="item-value year">--</span>
+						</li>
+					</ul>
+				</div>
+				<div class="arrow2"></div>
+				<div class="box total-out">
+					<div class="box-head"><img id="box-img" src="../images/1_18.png" /><span>总输出</span></div>
+					<ul class="data-list">
+						<li>
+							<span class="item-text">实时：</span>
+							<span class="item-value flow">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">日累计：</span>
+							<span class="item-value day">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">月累计：</span>
+							<span class="item-value month">--</span>
+						</li>
+						<li class="hide">
+							<span class="item-text">年累计：</span>
+							<span class="item-value year">--</span>
+						</li>
+					</ul>
+				</div>
+				<div class="arrow3"></div>
+			</div>
+            <div class="right-content">
+                <ul class="factoy-list-out">
+                </ul>
+            </div>
+        </div>
+        <div class="panel right-panel-top" id="cost">
+			<div class="header-line-left"></div>
+			<img class="header-line-right" src="../images/1_11.png" />
+            <div class="header">
+                <div class="left">用能成本</div>
+                <div class="right2 right">
+                    <!-- <a href="javascript:void(0)" title="查看更多"><img src="../images/end_enlarge.png" /></a> -->
+                    <div class="cycle-button" condition="Year">年</div>
+                    <div class="cycle-button active" condition="Month">月</div>
+                    <div class="cycle-button" condition="Day">日</div>
+                    <div class="type-button" condition="Energy">介质</div>
+                    <div class="type-button active" condition="Dept">部门</div>
+                </div>
+            </div>
+            <div id="cost-chart"></div>
+        </div>
+        <div class="panel right-panel-middle" id="predict">
+			<div class="header-line-left"></div>
+			<img class="header-line-right" src="../images/1_11.png" />
+            <div class="header">
+                <div class="left">能耗预测</div>
+                <div class="right1 right">
+                    <!-- <a href="javascript:void(0)" title="查看更多"><img src="/images/end_enlarge.png" /></a> -->
+                    <div class="cycle-button" condition="Year">年</div>
+                    <div class="cycle-button active" condition="Month">月</div>
+                    <div class="cycle-button" condition="Day">日</div>
+                </div>
+            </div>
+            <!--<div id="predict-chart"></div>-->
+            <div class="rank rank1">
+                    <!-- <img id="rank_circle" src="/images/rank_circle.png" />
+                    <span class="rank">1</span> -->
+                    <img class="rank_bar" id="rank_bar1" src="../images/1_26.png" />
+                    <span class="rank_name">熔炼车间</span>
+                    <span class="rank_value" id="rank_value1"></span>
+                </div>
+				<div class="rank rank2">
+                    <!-- <img id="rank_circle" src="/images/rank_circle.png" />
+                    <span class="rank">1</span> -->
+                    <img class="rank_bar" id="rank_bar2" src="../images/1_34.png" />
+                    <span class="rank_name">动力车间</span>
+                    <span class="rank_value" id="rank_value2"></span>
+                </div>
+				<div class="rank rank3">
+                    <!-- <img id="rank_circle" src="/images/rank_circle.png" />
+                    <span class="rank">1</span> -->
+                    <img class="rank_bar" id="rank_bar3" src="../images/1_43.png" />
+                    <span class="rank_name">硫酸车间</span>
+                    <span class="rank_value" id="rank_value3"></span>
+                </div>
+				<!--<div class="rank rank4">
+                    <img class="rank_bar" id="rank_bar4" src="../images/1_28.png" />
+                    <span class="rank_name">选矿车间</span>
+                    <span class="rank_value" id="rank_value4"></span>
+                </div>
+				<div class="rank rank5">
+                    <img class="rank_bar" id="rank_bar5" src="../images/1_36.png" />
+                    <span class="rank_name">备料车间</span>
+                    <span class="rank_value" id="rank_value5"></span>
+                </div>-->
+        </div>
+        <div class="panel right-panel-bottom" id="balance">
+			<div class="header-line-left"></div>
+			<img class="header-line-right" src="../images/1_11.png" />
+            <div class="header">
+                <div class="left">能源平衡</div>
+                <div class="right1 right">
+                    <!-- <a href="javascript:void(0)" title="查看更多"><img src="/images/end_enlarge.png" /></a> -->
+                    <div class="cycle-button" condition="Year">年</div>
+                    <div class="cycle-button active" condition="Month">月</div>
+                    <div class="cycle-button" condition="Day">日</div>
+                </div>
+            </div>
+            <ul>
+                <!--<li>
+                    <div class="label">水</div>
+                    <img id="bg" src="../images/1_001_s.png" />
+					<div class="left">供给</div>
+					<img id="cursor_left" src="../images/green_s.png" />
+					<div class="right">消耗</div>
+                </li>
+                <li>
+                    <div class="label">电</div>
+					<img id="bg" src="../images/1_001_s.png" />
+					<div class="left">供给</div>
+					<img id="cursor_balance" src="../images/yellow_s.png" />
+					<div class="right">消耗</div>
+                </li>
+                <li>
+                    <div class="label">气</div>
+					<img id="bg" src="../images/1_001_s.png" />
+					<div class="left">供给</div>
+					<img id="cursor_right" src="../images/red_s.png" />
+					<div class="right">消耗</div>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="opacity-div-for-modelwin"></div> -->
+    <!-- <div class="window" id="window">
+        <div class="window-title" id="window-head">
+            <h3 style="font-size:18px;text-align:center;"></h3>
+        </div>
+        <div class="window-body">
+            <div class="echart-container" id="window_chart1">
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="rightmenu hide">
+        <ul class="menuson"></ul>
+    </div> -->
+    <script src="../js/config.js"></script>
+	<script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/common/echarts.common.min.js"></script>
+    <script src="../js/require-2.1.11.js" data-main="../overview/page"></script>
+	<script src="../js/nav.js"></script>
+</body>
+</html>
